@@ -24,14 +24,35 @@ const packageProfiles = {
 
 const styleAdjustments = {
   balanced: {},
-  drag: { general: 3, redDot: 3, scope2: 1 },
-  freestyle: { general: 4, redDot: 3, scope2: 1 },
-  brazilian: { general: 3, redDot: 3, scope2: 1 },
+
+  drag: {
+    general: 3,
+    redDot: 3,
+    scope2: 1
+  },
+
+  freestyle: {
+    general: 4,
+    redDot: 3,
+    scope2: 1
+  },
+
+  brazilian: {
+    general: 7,
+    redDot: 5,
+    scope2: 3,
+    scope4: 2
+  },
+
   precision: {
-    general: -4, redDot: -3, scope2: -2,
-    scope4: 1, sniper: 3
+    general: -4,
+    redDot: -3,
+    scope2: -2,
+    scope4: 1,
+    sniper: 3
   }
 };
+  
 
 // Conservative model-family starting adjustments.
 // These are estimates, not laboratory measurements.
